@@ -50,4 +50,5 @@ Datos de regiones, provincias y ciudades de chile, actualizado al 31 de enero de
 	],
 	'active': False,
 	'installable': True
+	
 }
