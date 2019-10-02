@@ -1,0 +1,98 @@
+<odoo>
+	<record model='res.country.state' id='CL15'>
+		<field name='name'>Arica y Parinacota</field>
+		<field name='code'>CL15</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL01'>
+		<field name='name'>Tarapacá</field>
+		<field name='code'>CL01</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL02'>
+		<field name='name'>Antofagasta</field>
+		<field name='code'>CL02</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL03'>
+		<field name='name'>Atacama</field>
+		<field name='code'>CL03</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL04'>
+		<field name='name'>Coquimbo</field>
+		<field name='code'>CL04</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL05'>
+		<field name='name'>Valparaíso</field>
+		<field name='code'>CL05</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL06'>
+		<field name='name'>Región del Libertador Gral. Bernardo O''Higgins</field>
+		<field name='code'>CL06</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL07'>
+		<field name='name'>Región del Maule</field>
+		<field name='code'>CL07</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL08'>
+		<field name='name'>Región del Biobío</field>
+		<field name='code'>CL08</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL09'>
+		<field name='name'>Región de la Araucanía</field>
+		<field name='code'>CL09</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL14'>
+		<field name='name'>Región de Los Ríos</field>
+		<field name='code'>CL14</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL10'>
+		<field name='name'>Región de Los Lagos</field>
+		<field name='code'>CL10</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL11'>
+		<field name='name'>Región Aisén del Gral. Carlos Ibáñez del Campo</field>
+		<field name='code'>CL11</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL12'>
+		<field name='name'>Región de Magallanes y de la Antártica Chilena</field>
+		<field name='code'>CL12</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL13'>
+		<field name='name'>Región Metropolitana de Santiago</field>
+		<field name='code'>CL13</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+	<record model='res.country.state' id='CL16'>
+		<field name='name'>Región de Ñuble</field>
+		<field name='code'>CL16</field>
+		<field name='country_id' ref='base.cl'/>
+	</record>
+
+</odoo>
