@@ -1,394 +1,339 @@
 <odoo>
-	<!-- PROVINCIAS -->
-	<record model='res.country.region' id='CL011'> 
-		<field name='name'>Iquique</field>
-		<field name='state_id' ref='CL01'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL011</field>
-	</record>
-
-	<record model='res.country.region' id='CL014'> 
-		<field name='name'>Tamarugal</field>
-		<field name='state_id' ref='CL01'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL14</field>
-	</record>
-
-	<record model='res.country.region' id='CL021'> 
-		<field name='name'>Antofagasta</field>
-		<field name='state_id' ref='CL02'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL21</field>
-	</record>
-
-	<record model='res.country.region' id='CL022'> 
-		<field name='name'>El Loa</field>
-		<field name='state_id' ref='CL02'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL22</field>
-	</record>
-
-	<record model='res.country.region' id='CL023'> 
-		<field name='name'>Tocopilla</field>
-		<field name='state_id' ref='CL02'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL23</field>
-	</record>
-
-	<record model='res.country.region' id='CL031'> 
-		<field name='name'>Copiapó</field>
-		<field name='state_id' ref='CL03'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL31</field>
-	</record>
-
-	<record model='res.country.region' id='CL032'> 
-		<field name='name'>Chañaral</field>
-		<field name='state_id' ref='CL03'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL32</field>
-	</record>
-
-	<record model='res.country.region' id='CL033'> 
-		<field name='name'>Huasco</field>
-		<field name='state_id' ref='CL03'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL33</field>
-	</record>
-
-	<record model='res.country.region' id='CL041'> 
-		<field name='name'>Elqui</field>
-		<field name='state_id' ref='CL04'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL41</field>
-	</record>
-
-	<record model='res.country.region' id='CL042'> 
-		<field name='name'>Choapa</field>
-		<field name='state_id' ref='CL04'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL42</field>
-	</record>
-
-	<record model='res.country.region' id='CL043'> 
-		<field name='name'>Limarí</field>
-		<field name='state_id' ref='CL04'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL43</field>
-	</record>
-
-	<record model='res.country.region' id='CL051'> 
-		<field name='name'>Valparaíso</field>
-		<field name='state_id' ref='CL05'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL51</field>
-	</record>
-
-	<record model='res.country.region' id='CL052'> 
-		<field name='name'>Isla de Pascua</field>
-		<field name='state_id' ref='CL05'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL52</field>
-	</record>
-
-	<record model='res.country.region' id='CL053'> 
-		<field name='name'>Los Andes</field>
-		<field name='state_id' ref='CL05'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL53</field>
-	</record>
-
-	<record model='res.country.region' id='CL054'> 
-		<field name='name'>Petorca</field>
-		<field name='state_id' ref='CL05'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL54</field>
-	</record>
-
-	<record model='res.country.region' id='CL055'> 
-		<field name='name'>Quillota</field>
-		<field name='state_id' ref='CL05'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL55</field>
-	</record>
-
-	<record model='res.country.region' id='CL056'> 
-		<field name='name'>San Antonio</field>
-		<field name='state_id' ref='CL05'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL56</field>
-	</record>
-
-	<record model='res.country.region' id='CL057'> 
-		<field name='name'>San Felipe de Aconcagua</field>
-		<field name='state_id' ref='CL05'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL57</field>
-	</record>
-
-	<record model='res.country.region' id='CL058'> 
-		<field name='name'>Marga Marga</field>
-		<field name='state_id' ref='CL05'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL58</field>
-	</record>
-
-	<record model='res.country.region' id='CL061'> 
-		<field name='name'>Cachapoal</field>
-		<field name='state_id' ref='CL06'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL61</field>
-	</record>
-
-	<record model='res.country.region' id='CL062'> 
-		<field name='name'>Cardenal Caro</field>
-		<field name='state_id' ref='CL06'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL62</field>
-	</record>
-
-	<record model='res.country.region' id='CL063'> 
-		<field name='name'>Colchagua</field>
-		<field name='state_id' ref='CL06'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL63</field>
-	</record>
-
-	<record model='res.country.region' id='CL071'> 
-		<field name='name'>Talca</field>
-		<field name='state_id' ref='CL07'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL71</field>
-	</record>
-
-	<record model='res.country.region' id='CL072'> 
-		<field name='name'>Cauquenes</field>
-		<field name='state_id' ref='CL07'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL72</field>
-	</record>
-
-	<record model='res.country.region' id='CL073'> 
-		<field name='name'>Curicó</field>
-		<field name='state_id' ref='CL07'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL73</field>
-	</record>
-
-	<record model='res.country.region' id='CL074'> 
-		<field name='name'>Linares</field>
-		<field name='state_id' ref='CL07'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL74</field>
-	</record>
-
-	<record model='res.country.region' id='CL081'> 
-		<field name='name'>Concepción</field>
-		<field name='state_id' ref='CL08'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL81</field>
-	</record>
-
-	<record model='res.country.region' id='CL082'> 
-		<field name='name'>Arauco</field>
-		<field name='state_id' ref='CL08'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL82</field>
-	</record>
-
-	<record model='res.country.region' id='CL083'> 
-		<field name='name'>Biobío</field>
-		<field name='state_id' ref='CL08'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL83</field>
-	</record>
-
-	<record model='res.country.region' id='CL091'> 
-		<field name='name'>Cautín</field>
-		<field name='state_id' ref='CL09'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL91</field>
-	</record>
-
-	<record model='res.country.region' id='CL092'> 
-		<field name='name'>Malleco</field>
-		<field name='state_id' ref='CL09'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL92</field>
-	</record>
-
-	<record model='res.country.region' id='CL101'> 
-		<field name='name'>Llanquihue</field>
-		<field name='state_id' ref='CL10'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL101</field>
-	</record>
-
-	<record model='res.country.region' id='CL102'> 
-		<field name='name'>Chiloé</field>
-		<field name='state_id' ref='CL10'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL102</field>
-	</record>
-
-	<record model='res.country.region' id='CL103'> 
-		<field name='name'>Osorno</field>
-		<field name='state_id' ref='CL10'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL103</field>
-	</record>
-
-	<record model='res.country.region' id='CL104'> 
-		<field name='name'>Palena</field>
-		<field name='state_id' ref='CL10'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL104</field>
-	</record>
-
-	<record model='res.country.region' id='CL111'> 
-		<field name='name'>Coihaique</field>
-		<field name='state_id' ref='CL11'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL111</field>
-	</record>
-
-	<record model='res.country.region' id='CL112'> 
-		<field name='name'>Aisén</field>
-		<field name='state_id' ref='CL11'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL112</field>
-	</record>
-
-	<record model='res.country.region' id='CL113'> 
-		<field name='name'>Capitán Prat</field>
-		<field name='state_id' ref='CL11'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL113</field>
-	</record>
-
-	<record model='res.country.region' id='CL114'> 
-		<field name='name'>General Carrera</field>
-		<field name='state_id' ref='CL11'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL114</field>
-	</record>
-
-	<record model='res.country.region' id='CL121'> 
-		<field name='name'>Magallanes</field>
-		<field name='state_id' ref='CL12'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL121</field>
-	</record>
-
-	<record model='res.country.region' id='CL122'> 
-		<field name='name'>Antártica Chilena</field>
-		<field name='state_id' ref='CL12'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL122</field>
-	</record>
-
-	<record model='res.country.region' id='CL123'> 
-		<field name='name'>Tierra del Fuego</field>
-		<field name='state_id' ref='CL12'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL123</field>
-	</record>
-
-	<record model='res.country.region' id='CL124'> 
-		<field name='name'>Última Esperanza</field>
-		<field name='state_id' ref='CL12'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL124</field>
-	</record>
-
-	<record model='res.country.region' id='CL131'> 
-		<field name='name'>Santiago</field>
-		<field name='state_id' ref='CL13'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL131</field>
-	</record>
-
-	<record model='res.country.region' id='CL132'> 
-		<field name='name'>Cordillera</field>
-		<field name='state_id' ref='CL13'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL132</field>
-	</record>
-
-	<record model='res.country.region' id='CL133'> 
-		<field name='name'>Chacabuco</field>
-		<field name='state_id' ref='CL13'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL133</field>
-	</record>
-
-	<record model='res.country.region' id='CL134'> 
-		<field name='name'>Maipo</field>
-		<field name='state_id' ref='CL13'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL134</field>
-	</record>
-
-	<record model='res.country.region' id='CL135'> 
-		<field name='name'>Melipilla</field>
-		<field name='state_id' ref='CL13'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL135</field>
-	</record>
-
-	<record model='res.country.region' id='CL136'> 
-		<field name='name'>Talagante</field>
-		<field name='state_id' ref='CL13'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL136</field>
-	</record>
-
-	<record model='res.country.region' id='CL141'> 
-		<field name='name'>Valdivia</field>
-		<field name='state_id' ref='CL14'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL141</field>
-	</record>
-
-	<record model='res.country.region' id='CL142'> 
-		<field name='name'>Ranco</field>
-		<field name='state_id' ref='CL14'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL142</field>
-	</record>
-
-	<record model='res.country.region' id='CL151'> 
-		<field name='name'>Arica</field>
-		<field name='state_id' ref='CL15'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL151</field>
-	</record>
-
-	<record model='res.country.region' id='CL152'> 
-		<field name='name'>Parinacota</field>
-		<field name='state_id' ref='CL15'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL152</field>
-	</record>
-
-	<record model='res.country.region' id='CL163'> 
-		<field name='name'>Diguillín</field>
-		<field name='state_id' ref='CL16'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL163</field>
-	</record>
-
-	<record model='res.country.region' id='CL162'> 
-		<field name='name'>Itata</field>
-		<field name='state_id' ref='CL16'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL162</field>
-	</record>
-
-	<record model='res.country.region' id='CL161'> 
-		<field name='name'>Punilla</field>
-		<field name='state_id' ref='CL16'/>
-		<field name='country_id' ref='base.cl'/>
-		<field name='code'>CL161</field>
-	</record>
+    <!-- PROVINCIAS -->
+    <record model='res.country.region' id='CL011'>
+        <field name='name'>Iquique</field>
+        <field name='state_id' ref='base.state_cl_01'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL011</field>
+    </record>
+    <record model='res.country.region' id='CL014'>
+        <field name='name'>Tamarugal</field>
+        <field name='state_id' ref='base.state_cl_01'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL14</field>
+    </record>
+    <record model='res.country.region' id='CL021'>
+        <field name='name'>Antofagasta</field>
+        <field name='state_id' ref='base.state_cl_02'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL21</field>
+    </record>
+    <record model='res.country.region' id='CL022'>
+        <field name='name'>El Loa</field>
+        <field name='state_id' ref='base.state_cl_02'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL22</field>
+    </record>
+    <record model='res.country.region' id='CL023'>
+        <field name='name'>Tocopilla</field>
+        <field name='state_id' ref='base.state_cl_02'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL23</field>
+    </record>
+    <record model='res.country.region' id='CL031'>
+        <field name='name'>Copiapó</field>
+        <field name='state_id' ref='base.state_cl_03'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL31</field>
+    </record>
+    <record model='res.country.region' id='CL032'>
+        <field name='name'>Chañaral</field>
+        <field name='state_id' ref='base.state_cl_03'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL32</field>
+    </record>
+    <record model='res.country.region' id='CL033'>
+        <field name='name'>Huasco</field>
+        <field name='state_id' ref='base.state_cl_03'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL33</field>
+    </record>
+    <record model='res.country.region' id='CL041'>
+        <field name='name'>Elqui</field>
+        <field name='state_id' ref='base.state_cl_04'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL41</field>
+    </record>
+    <record model='res.country.region' id='CL042'>
+        <field name='name'>Choapa</field>
+        <field name='state_id' ref='base.state_cl_04'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL42</field>
+    </record>
+    <record model='res.country.region' id='CL043'>
+        <field name='name'>Limarí</field>
+        <field name='state_id' ref='base.state_cl_04'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL43</field>
+    </record>
+    <record model='res.country.region' id='CL051'> 
+        <field name='name'>Valparaíso</field>
+        <field name='state_id' ref='base.state_cl_05'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL51</field>
+    </record>
+    <record model='res.country.region' id='CL052'> 
+        <field name='name'>Isla de Pascua</field>
+        <field name='state_id' ref='base.state_cl_05'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL52</field>
+    </record>
+    <record model='res.country.region' id='CL053'> 
+        <field name='name'>Los Andes</field>
+        <field name='state_id' ref='base.state_cl_05'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL53</field>
+    </record>
+    <record model='res.country.region' id='CL054'> 
+        <field name='name'>Petorca</field>
+        <field name='state_id' ref='base.state_cl_05'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL54</field>
+    </record>
+    <record model='res.country.region' id='CL055'> 
+        <field name='name'>Quillota</field>
+        <field name='state_id' ref='base.state_cl_05'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL55</field>
+    </record>
+    <record model='res.country.region' id='CL056'> 
+        <field name='name'>San Antonio</field>
+        <field name='state_id' ref='base.state_cl_05'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL56</field>
+    </record>
+    <record model='res.country.region' id='CL057'> 
+        <field name='name'>San Felipe de Aconcagua</field>
+        <field name='state_id' ref='base.state_cl_05'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL57</field>
+    </record>
+    <record model='res.country.region' id='CL058'> 
+        <field name='name'>Marga Marga</field>
+        <field name='state_id' ref='base.state_cl_05'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL58</field>
+    </record>
+    <record model='res.country.region' id='CL061'> 
+        <field name='name'>Cachapoal</field>
+        <field name='state_id' ref='base.state_cl_06'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL61</field>
+    </record>
+    <record model='res.country.region' id='CL062'> 
+        <field name='name'>Cardenal Caro</field>
+        <field name='state_id' ref='base.state_cl_06'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL62</field>
+    </record>
+    <record model='res.country.region' id='CL063'> 
+        <field name='name'>Colchagua</field>
+        <field name='state_id' ref='base.state_cl_06'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL63</field>
+    </record>
+    <record model='res.country.region' id='CL071'> 
+        <field name='name'>Talca</field>
+        <field name='state_id' ref='base.state_cl_07'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL71</field>
+    </record>
+    <record model='res.country.region' id='CL072'> 
+        <field name='name'>Cauquenes</field>
+        <field name='state_id' ref='base.state_cl_07'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL72</field>
+    </record>
+    <record model='res.country.region' id='CL073'> 
+        <field name='name'>Curicó</field>
+        <field name='state_id' ref='base.state_cl_07'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL73</field>
+    </record>
+    <record model='res.country.region' id='CL074'> 
+        <field name='name'>Linares</field>
+        <field name='state_id' ref='base.state_cl_07'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL74</field>
+    </record>
+    <record model='res.country.region' id='CL081'> 
+        <field name='name'>Concepción</field>
+        <field name='state_id' ref='base.state_cl_08'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL81</field>
+    </record>
+    <record model='res.country.region' id='CL082'> 
+        <field name='name'>Arauco</field>
+        <field name='state_id' ref='base.state_cl_08'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL82</field>
+    </record>
+    <record model='res.country.region' id='CL083'> 
+        <field name='name'>Biobío</field>
+        <field name='state_id' ref='base.state_cl_08'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL83</field>
+    </record>
+    <record model='res.country.region' id='CL091'> 
+        <field name='name'>Cautín</field>
+        <field name='state_id' ref='base.state_cl_09'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL91</field>
+    </record>
+    <record model='res.country.region' id='CL092'> 
+        <field name='name'>Malleco</field>
+        <field name='state_id' ref='base.state_cl_09'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL92</field>
+    </record>
+    <record model='res.country.region' id='CL101'> 
+        <field name='name'>Llanquihue</field>
+        <field name='state_id' ref='base.state_cl_10'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL101</field>
+    </record>
+    <record model='res.country.region' id='CL102'> 
+        <field name='name'>Chiloé</field>
+        <field name='state_id' ref='base.state_cl_10'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL102</field>
+    </record>
+    <record model='res.country.region' id='CL103'> 
+        <field name='name'>Osorno</field>
+        <field name='state_id' ref='base.state_cl_10'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL103</field>
+    </record>
+    <record model='res.country.region' id='CL104'> 
+        <field name='name'>Palena</field>
+        <field name='state_id' ref='base.state_cl_10'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL104</field>
+    </record>
+    <record model='res.country.region' id='CL111'> 
+        <field name='name'>Coihaique</field>
+        <field name='state_id' ref='base.state_cl_11'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL111</field>
+    </record>
+    <record model='res.country.region' id='CL112'> 
+        <field name='name'>Aisén</field>
+        <field name='state_id' ref='base.state_cl_11'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL112</field>
+    </record>
+    <record model='res.country.region' id='CL113'> 
+        <field name='name'>Capitán Prat</field>
+        <field name='state_id' ref='base.state_cl_11'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL113</field>
+    </record>
+    <record model='res.country.region' id='CL114'> 
+        <field name='name'>General Carrera</field>
+        <field name='state_id' ref='base.state_cl_11'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL114</field>
+    </record>
+    <record model='res.country.region' id='CL121'> 
+        <field name='name'>Magallanes</field>
+        <field name='state_id' ref='base.state_cl_12'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL121</field>
+    </record>
+    <record model='res.country.region' id='CL122'> 
+        <field name='name'>Antártica Chilena</field>
+        <field name='state_id' ref='base.state_cl_12'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL122</field>
+    </record>
+    <record model='res.country.region' id='CL123'> 
+        <field name='name'>Tierra del Fuego</field>
+        <field name='state_id' ref='base.state_cl_12'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL123</field>
+    </record>
+    <record model='res.country.region' id='CL124'> 
+        <field name='name'>Última Esperanza</field>
+        <field name='state_id' ref='base.state_cl_12'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL124</field>
+    </record>
+    <record model='res.country.region' id='CL131'> 
+        <field name='name'>Santiago</field>
+        <field name='state_id' ref='base.state_cl_13'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL131</field>
+    </record>
+    <record model='res.country.region' id='CL132'> 
+        <field name='name'>Cordillera</field>
+        <field name='state_id' ref='base.state_cl_13'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL132</field>
+    </record>
+    <record model='res.country.region' id='CL133'> 
+        <field name='name'>Chacabuco</field>
+        <field name='state_id' ref='base.state_cl_13'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL133</field>
+    </record>
+    <record model='res.country.region' id='CL134'> 
+        <field name='name'>Maipo</field>
+        <field name='state_id' ref='base.state_cl_13'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL134</field>
+    </record>
+    <record model='res.country.region' id='CL135'> 
+        <field name='name'>Melipilla</field>
+        <field name='state_id' ref='base.state_cl_13'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL135</field>
+    </record>
+    <record model='res.country.region' id='CL136'> 
+        <field name='name'>Talagante</field>
+        <field name='state_id' ref='base.state_cl_13'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL136</field>
+    </record>
+    <record model='res.country.region' id='CL141'> 
+        <field name='name'>Valdivia</field>
+        <field name='state_id' ref='base.state_cl_14'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL141</field>
+    </record>
+    <record model='res.country.region' id='CL142'> 
+        <field name='name'>Ranco</field>
+        <field name='state_id' ref='base.state_cl_14'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL142</field>
+    </record>
+    <record model='res.country.region' id='CL151'> 
+        <field name='name'>Arica</field>
+        <field name='state_id' ref='base.state_cl_15'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL151</field>
+    </record>
+    <record model='res.country.region' id='CL152'> 
+        <field name='name'>Parinacota</field>
+        <field name='state_id' ref='base.state_cl_15'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL152</field>
+    </record>
+    <record model='res.country.region' id='CL163'> 
+        <field name='name'>Diguillín</field>
+        <field name='state_id' ref='base.state_cl_16'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL163</field>
+    </record>
+    <record model='res.country.region' id='CL162'> 
+        <field name='name'>Itata</field>
+        <field name='state_id' ref='base.state_cl_16'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL162</field>
+    </record>
+    <record model='res.country.region' id='CL161'> 
+        <field name='name'>Punilla</field>
+        <field name='state_id' ref='base.state_cl_16'/>
+        <field name='country_id' ref='base.cl'/>
+        <field name='code'>CL161</field>
+    </record>
 </odoo>

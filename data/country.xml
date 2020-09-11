@@ -1,5 +1,5 @@
 <odoo>
-	<record model='res.country' id='base.cl'>
-		<field name='enforce_cities'>True</field>
-	</record>
+    <record model='res.country' id='base.cl'>
+        <field name='enforce_cities'>True</field>
+    </record>
 </odoo>

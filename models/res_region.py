@@ -30,12 +30,11 @@
 from odoo import api, fields, models
 
 class ResCountryRegion(models.Model):
-	_name = 'res.country.region'
+    _name = 'res.country.region'
 
-	name = fields.Char('Name', required=True)
-	code = fields.Char('Code', required=True)
+    name = fields.Char('Name', required=True)
+    code = fields.Char('Code', required=True)
 
-	country_id = fields.Many2one('res.country', 'Country', required=True)
-	state_id = fields.Many2one('res.country.state', 'State' , required=True)
-
+    country_id = fields.Many2one('res.country', 'Country', required=True)
+    state_id = fields.Many2one('res.country.state', 'State' , required=True)
 
