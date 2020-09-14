@@ -1,14 +1,14 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
-# Copyright (c) 2012 Gabriel Henao.
+# Author: BTeC Ltda.
+# Copyright (c) 2016 BTeC Ltda.
 #
 # WARNING: This program as such is intended to be used by professional
-# programmers who take the whole responsability of assessing all potential
+# programmers who take the whole responsibility of assessing all potential
 # consequences resulting from its eventual inadequacies and bugs
 # End users who are looking for a ready-to-use solution with commercial
-# garantees and support are strongly adviced to contract a Free Software
+# guarantees and support are strongly advised to contract a Free Software
 # Service Company
 #
 # This program is Free Software; you can redistribute it and/or
@@ -27,6 +27,17 @@
 #
 ##############################################################################
 
-from . import res_city
-from . import res_region
-from . import res_partner
+from odoo import api, fields, models
+
+class ResCity(models.Model):
+    _inherit = 'res.city'
+
+    code = fields.Char('Code', required=True)
+        
+    def _get_name(self):
+        city = self
+        res = super()._get_name()
+        if city.code:
+             res = "[%s] %s" % (city.code, res)
+        return res
+

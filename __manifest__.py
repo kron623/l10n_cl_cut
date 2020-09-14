@@ -37,6 +37,7 @@ Datos de regiones, provincias y ciudades de chile, actualizado al 31 de enero de
     'category': 'Localization',
     'depends': ['l10n_cl'],
     'data':[
+        'views/res_city_view.xml',
         'data/provincias.xml',
         'data/ciudades.xml',
         'data/country.xml'
