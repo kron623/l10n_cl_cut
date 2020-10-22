@@ -27,28 +27,27 @@
 #
 ##############################################################################
 {
-	'name': 'Chile Localization Regions, Cities and Countries',
-	'version': '0.1',
-	'description': """
+    'name': 'Chile Localization Regions, Cities and Countries',
+    'version': '13.0.0.1',
+    'description': """
 Datos de regiones, provincias y ciudades de chile, actualizado al 31 de enero de 2019 ( se incluye la region de Ñuble )
 """,
-	'author': 'Patricio Felipe Caceres Gutierrez (desarrollos@nuruve.cl)',
-	'website': 'www.nuruve.cl',
-	'category': 'Localization',
-	'depends': [
-		'base_address_city',
-	],
-	'data':[
-		'data/regiones.xml',
-		'data/provincias.xml',
-		'data/ciudades.xml',
-		'data/country.xml'
-
-	],
-	'contributors': [
-		'Patricio Felipe Caceres <desarrollos@nuruve.cl>'
-	],
-	'active': False,
-	'installable': True
-	
+    'author': 'Patricio Felipe Caceres Gutierrez (desarrollos@nuruve.cl)',
+    'website': 'www.nuruve.cl',
+    'category': 'Localization',
+    'depends': ['l10n_cl'],
+    'data':[
+        'views/res_city_views.xml',
+        'views/res_country_region_views.xml',
+        'security/ir.model.access.csv',
+        'data/provincias.xml',
+        'data/ciudades.xml',
+        'data/country.xml'
+    ],
+    'contributors': [
+        'Patricio Felipe Caceres <desarrollos@nuruve.cl>',
+        'David Acevedo Toledo <dacevedo@opendrive.cl>'
+    ],
+    'active': False,
+    'installable': True
 }

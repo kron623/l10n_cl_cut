@@ -29,17 +29,15 @@
 
 from odoo import api, fields, models
 
-class ResPartner(models.Model):
-    _inherit = 'res.partner'
+class ResCity(models.Model):
+    _inherit = 'res.city'
 
-    @api.onchange('city_id')
-    def _onchange_city_id(self):
-        if self.city_id:
-            self.city = self.city_id.name
-            self.zip = self.city_id.zipcode
-            self.state_id = self.city_id.state_id
-        else:
-            self.city = None
-            self.zip = None
-            self.state_id = None
+    code = fields.Char('Code', required=True)
+        
+    def _get_name(self):
+        city = self
+        res = super()._get_name()
+        if city.code:
+             res = "[%s] %s" % (city.code, res)
+        return res
 
