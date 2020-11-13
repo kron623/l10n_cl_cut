@@ -1958,127 +1958,127 @@
 	<record model='res.city' id='CL08401'>
 		<field name='name'>Chillán</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08401</field>
 	</record>
 	<record model='res.city' id='CL08402'>
 		<field name='name'>Bulnes</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08402</field>
 	</record>
 	<record model='res.city' id='CL08406'>
 		<field name='name'>Chillán Viejo</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08406</field>
 	</record>
 	<record model='res.city' id='CL08407'>
 		<field name='name'>El Carmen</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08407</field>
 	</record>
 	<record model='res.city' id='CL08410'>
 		<field name='name'>Pemuco</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08410</field>
 	</record>
 	<record model='res.city' id='CL08411'>
 		<field name='name'>Pinto</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08411</field>
 	</record>
 	<record model='res.city' id='CL08413'>
 		<field name='name'>Quillón</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08413</field>
 	</record>
 	<record model='res.city' id='CL08418'>
 		<field name='name'>San Ignacio</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08418</field>
 	</record>
 	<record model='res.city' id='CL08421'>
 		<field name='name'>Yungay</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08421</field>
 	</record>
 	<record model='res.city' id='CL08403'>
 		<field name='name'>Cobquecura</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08403</field>
 	</record>
 	<record model='res.city' id='CL08404'>
 		<field name='name'>Coelemu</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08404</field>
 	</record>
 	<record model='res.city' id='CL08408'>
 		<field name='name'>Ninhue</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08408</field>
 	</record>
 	<record model='res.city' id='CL08412'>
 		<field name='name'>Portezuelo</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08412</field>
 	</record>
 	<record model='res.city' id='CL08414'>
 		<field name='name'>Quirihue</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08414</field>
 	</record>
 	<record model='res.city' id='CL08415'>
 		<field name='name'>Ránquil</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08415</field>
 	</record>
 	<record model='res.city' id='CL08420'>
 		<field name='name'>Treguaco</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08420</field>
 	</record>
 	<record model='res.city' id='CL08405'>
 		<field name='name'>Coihueco</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08405</field>
 	</record>
 	<record model='res.city' id='CL08409'>
 		<field name='name'>Ñiquén</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08409</field>
 	</record>
 	<record model='res.city' id='CL08416'>
 		<field name='name'>San Carlos</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08416</field>
 	</record>
 	<record model='res.city' id='CL08417'>
 		<field name='name'>San Fabián</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08417</field>
 	</record>
 	<record model='res.city' id='CL08419'>
 		<field name='name'>San Nicolás</field>
 		<field name='country_id' ref='base.cl'/>
-		<field name='state_id' ref='CL08'/>
+		<field name='state_id' ref='CL16'/>
 		<field name='code'>CL08419</field>
 	</record>
 </odoo>
